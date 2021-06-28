@@ -1,0 +1,64 @@
+name: betejee
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.0
+  carousel_slider: ^3.0.0
+  provider: ^4.0.0
+  http: ^0.11.2
+  shimmer: ^1.1.0
+  image_picker: ^0.6.3+4
+  intl: ^0.15.0
+  url_launcher: ^5.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  
+    - images/sports.jpg
+    - images/barsa.jpg
+    - images/champain1.jpg
+    - images/champian.jpg
+    - images/messi.jpg
+    - images/betsport.jpg
+    - images/tennis.jpg
+    - images/cricket.jpg
+    - images/boot.jpg
+    - images/cat.jpg
+    - images/dog.jpg
+    - images/gorila.jpg
+    - images/tom and jery.jpg
+
+
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Black.ttf
+  #      
+    - family: RoboroM
+      fonts:
+        - asset: fonts/Roboto-Medium.ttf   
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
